@@ -1,0 +1,70 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+.sidebar{
+     height: 100vh;
+     width: 25%;
+     background: rgb(38, 32, 75);
+     color: white;
+     font-size: 30px;
+     border-top-right-radius : 20px;
+}
+div{
+     background-color: rgb(222, 226, 229);
+}
+.sidebar ul{
+     position: relative;
+     height: 50%;
+     top: 40px;
+}
+.sidebar ul li{
+     display: block;
+     text-align: center;
+     position: relative;
+     padding: 20px;
+     height: 60px;
+}
+.sidebar ul li:hover{
+     display: block;
+     background-color: rgb(22, 19, 42);
+}
+.sidebar ul li a{
+     
+}
+.sidebar ul li ul li{
+        background-color: red;
+}
+.sidebar ul li ul{
+     position: relative;
+     left: 364px;
+     bottom: 74px;
+     visibility: hidden;
+}
+.welcome{
+     display: block;
+     position: relative;
+     float: right;
+     left: 100px;
+     height: 50%;
+     text-align: center;
+     color: rgb(38, 32, 75);
+     font-size: 140px;
+}
+p{
+     padding: 100px;
+     position: relative;
+     left: 250px; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     transition: 10s;
+}
+p:hover{
+     color: rgb(219, 225, 230);
+     transition: 10s;
+     cursor: pointer;
+}
+.container{
+     display: flex;
+     
+}
+
